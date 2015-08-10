@@ -14,12 +14,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
-/**
- * @author yuvaraj yadav
- */
-/**
- * Created by Yuvaraj Yadav on 16/7/15.
- */
+
 
 public class RoundedImageView extends ImageView {
 
