@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@android:color/white"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dp"
+        android:padding="3dp">
+
+        <com.example.yuvaraj.calendar.RoundedImageView
+            android:id="@+id/list_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@android:color/white"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Today at 1:00 Pm"
+        android:layout_marginTop="5dp"
+        android:textColor="#948fa3"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="2dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Bier Baron Tavern "
+        android:textColor="#4d4d69" />
+
+    <ImageView
+        android:id="@+id/type"
+        android:layout_toRightOf="@+id/message"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="1dp"
+        android:layout_below="@id/title"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="2dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_toRightOf="@+id/type"
+        android:text="Alabama Avenue"
+        android:textColor="#64617c" />
+
+</RelativeLayout>

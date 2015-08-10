@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SwipeCalendar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="current_month_placeholder">January 1970</string>
+    <string name="previous_month_placeholder">&lt;</string>
+    <string name="next_month_placeholder">&gt;</string>
+    <string name="add_event">Add Event</string>
+    <string name="event_list">Event List</string>
+    <string-array name="days_array">
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WED</item>
+        <item>THU</item>
+        <item>FRI</item>
+        <item>SAT</item>
+        <item>SUN</item>
+    </string-array>
+</resources>
