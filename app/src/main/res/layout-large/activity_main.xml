@@ -71,8 +71,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:layout_marginTop="4dp"
         android:layout_weight="1">
 
@@ -120,8 +118,6 @@
         android:layout_height="match_parent"
         android:layout_weight=".7"
         android:layout_gravity="center"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:layout_marginTop="2dp"
         android:layout_marginBottom="4dp"
         android:background="@android:color/white"

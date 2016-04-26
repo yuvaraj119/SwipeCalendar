@@ -82,12 +82,12 @@ public class CalendarAdapter extends BaseAdapter {
         		//view.setBackgroundResource(R.drawable.today_background);
                 dayView.setText(currentItem.text);
                 dayView.setTextColor(Color.parseColor("#FFFFFF"));
-                dayView.setBackgroundResource(R.drawable.draw_circle);
+                dayView.setBackgroundResource(R.drawable.draw_rectangle);
         	} else if (currentItem.equals(selected)) {
         		//view.setBackgroundResource(R.drawable.selected_background);
                 dayView.setText(currentItem.text);
                 dayView.setTextColor(Color.parseColor("#000000"));
-                dayView.setBackgroundResource(R.drawable.draw_circle);
+                dayView.setBackgroundResource(R.drawable.draw_rectangle);
                 //dayView.setBackgroundResource(android.R.color.white);
         	} else {
         		view.setBackgroundResource(R.drawable.normal_background);

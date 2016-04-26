@@ -64,12 +64,12 @@ public class Event_ListAdapter extends BaseAdapter {
         ImageView profile = (ImageView) vi.findViewById(R.id.list_image);
         ImageView type = (ImageView) vi.findViewById(R.id.type);
         TextView title = (TextView) vi.findViewById(R.id.title);
-        TextView eventviewstartend = (TextView) vi.findViewById(R.id.message);
-        TextView eventviewlocation = (TextView) vi.findViewById(R.id.location);
+        TextView eventViewStartEnd = (TextView) vi.findViewById(R.id.message);
+        TextView eventViewLocation = (TextView) vi.findViewById(R.id.location);
 
         title.setText(eventList.get(position).getHeading().substring(0, 1).toUpperCase() + eventList.get(position).getHeading().substring(1));
-        eventviewstartend.setText(eventList.get(position).getText1());
-        eventviewlocation.setText(eventList.get(position).getText2());
+        eventViewStartEnd.setText(eventList.get(position).getText1());
+        eventViewLocation.setText(eventList.get(position).getText2());
 
         profile.setImageResource(eventList.get(position).getProfile());
         type.setImageResource(eventList.get(position).getType());
